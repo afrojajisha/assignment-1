@@ -1,7 +1,6 @@
 *{
     margin:0;
-    font-family: 'Work Sans';
-
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header{
@@ -13,12 +12,35 @@
     
 }
 
+.nav{display: flex;
+    justify-content: end;
+    padding-right: 200px;
+    padding-top: 40px;
+    }
+.nav ul{
+    display: flex;
+    }
+
+.nav ul li {
+    list-style-type: none;
+    margin-left: 100px;
+
+}
+.nav li a{
+    text-decoration: none;
+    color: #cac4c4;
+    font-weight: 600;
+    font-size: 25px;
+    text-shadow: 1px 2px 2px #1c1c20;
+
+}
+
 .banner-title{
     font-weight: 700;
     font-size: 65px;
-    font-family: 'Work Sans';
+    font-family: ;
     text-align: right;
-    padding-top: 216px ;
+    padding-top: 150px ;
     padding-right: 230px;
     margin-bottom: 24px;
 
@@ -32,7 +54,8 @@
     text-align: right;
     padding-right: 230px;
     color: #FFFFFF;
-    font-family: 'Calibri';
+    text-shadow: 1px 2px 2px #1c1c20;
+
 
     
 }
@@ -44,20 +67,212 @@
     margin-right: 230px;
     margin-top: 32px;
     margin-bottom: 166px;
-    font-family: 'Work Sans';
+    font-family: ;
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
     color: #005FAC;
+    
 
 }
 /* my failures */
 .second-section{
-    margin: 131px 322px 20px 206px;
+    margin-top: 80px ;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 80px;
     width: 1072px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .my-failure-img {
     background-image: url('/images/person.png');
     background-repeat: no-repeat;
+}
+
+.my-failure-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-top: 250px;
+}
+.my-failure-para {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-top: 24px;
+}
+
+.failure-list{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-top: 24px;
+
+}
+/* My Plans Styles */
+
+.my-plans{
+    margin:30px 230px;
+    
+}
+.my-plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 47px;
+    color: #151414;
+    text-align: center;
+}
+.my-plans-icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: center;
+
+}
+.my-skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    color: #151414;
+}
+.my-plan-p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+/* positive section styles */
+.positive-section{
+/* display: flex;    */
+/* justify-content: center;  */
+/* align-items: center; */
+margin-top: 100px;
+margin-bottom: 100px;
+
+
+}
+.positive-section-img{
+    width: 1140px;
+    height:300px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('/images/watch.png');
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    }
+.positive-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding-top: 59px ;
+    padding-left: 64px ;
+}
+.btn-positive{
+    width: 160px;
+    height: 64px;
+    margin-top: 24px;
+    margin-left: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #005FAC;
+    border-radius: 5px;
+    border: none;
+}
+/* Footer styles */
+.footer{
+    width: 1600px;
+    height:577px;
+    background: #151414;
+    margin-left: auto ;
+    margin-right: auto ;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.future-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    padding-top: 165px;
+    padding-left: 230px; 
+}
+
+.footer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ccc9c9;
+    padding-left: 230px;
+    padding-top: 20px;
+
+}
+.footer-text-email {
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #cac4c4;
+    padding-left: 230px;
+}
+
+.social-icons {
+    margin-top: 30px;
+    margin-left: 230px;
+}
+
+.social-icons img{
+    margin-right: 15px;;
+
+}
+.subscribe-title{
+    color: #F8F8F8;
+    padding-top: 180px;
+    padding-right: 230px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.subscribe-input{
+    width: 325px;
+    height: 64px;
+    background: #151414;
+    margin-top:20px;
+    border-radius: 10px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F3F3F3;
+    padding-left: 15px;
+    border: .5px solid #ccc;
+    
+}
+
+.subscribe-btn{
+    margin-top: 20px ;
+    width: 170.11px;
+    height: 64px;
+    background: #005FAC;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+
+
 }
