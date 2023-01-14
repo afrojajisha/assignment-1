@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    font-family: 'Work Sans';
+
+}
+
+.header{
+    width:;
+    height: 808px;
+    background-image: url('/images/banner/banner3.png') ;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    font-family: 'Work Sans';
+    text-align: right;
+    padding-top: 216px ;
+    padding-right: 230px;
+    margin-bottom: 24px;
+
+
+}
+
+.banner-para {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    padding-right: 230px;
+    color: #FFFFFF;
+    font-family: 'Calibri';
+
+    
+}
+
+.btn-contact{
+    float: right;
+    width: 160px;
+    height: 64px;
+    margin-right: 230px;
+    margin-top: 32px;
+    margin-bottom: 166px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005FAC;
+
+}
+/* my failures */
+.second-section{
+    margin: 131px 322px 20px 206px;
+    width: 1072px;
+}
+
+.my-failure-img {
+    background-image: url('/images/person.png');
+    background-repeat: no-repeat;
+}
